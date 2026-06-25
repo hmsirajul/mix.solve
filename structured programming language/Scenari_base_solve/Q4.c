@@ -1,11 +1,12 @@
-#include<stdio.h>
-int main(){
-   
-int sum = 0 ;
-for(int i = 1; i <= 10; i++) {
-    sum = sum + i;
-}
+#include <stdio.h>
+int main()
+{
 
-printf("%d", sum);
-    
+    int sum = 0;
+    for (int i = 1; i <= 10; i++)
+    {
+        sum = sum + i;
+    }
+
+    printf("%d", sum);
 }
